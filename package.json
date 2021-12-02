@@ -1,0 +1,29 @@
+{
+    "name": "app-informix",
+    "version": "1.0.0",
+    "description": "module to connect to informix database",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/difaagh/app-informix.git"
+    },
+    "author": {
+        "name": "difaagh"
+    },
+    "license": "ISC",
+    "files": [
+        "lib/**/*"
+    ],
+    "dependencies": {
+        "ifxnjs": "^10.0.5",
+        "ibm_db": "^2.8.0"
+    },
+    "devDependencies": {
+        "@types/ibm_db": "^2.0.9",
+        "typescript": "^3.8.3",
+        "dayjs": "^1.9.7"
+    }
+}
